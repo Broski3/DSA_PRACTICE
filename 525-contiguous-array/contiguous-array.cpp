@@ -21,8 +21,7 @@ public:
                 f[diff]=i;
             }
             else{
-                int index = f[diff];
-                int len = i-index;
+                int len = i-f[diff];
                 result = max(result,len);
             }
         }return result;
