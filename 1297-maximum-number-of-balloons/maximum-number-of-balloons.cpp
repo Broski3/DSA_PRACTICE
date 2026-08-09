@@ -10,7 +10,7 @@ public:
             freq['a'],
             freq['l']/2,
             freq['o']/2,
-            freq['n'],
+            freq['n']
         });
     }
 };
